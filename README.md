@@ -2,7 +2,7 @@
 使用opencv，实现图像的小波分解、重构，小波降噪和模极大值边缘检测。
 
 haar小波自动阈值降噪
-```
+```cpp
 my_wavelet::Wavelet wavelet;
 cv::Mat srcGray = cv::imread("D:\\pictures\\crack.jpg", 0);
 if (srcGray.empty()) {
