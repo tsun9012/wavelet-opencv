@@ -16,4 +16,4 @@ cv::Mat recMat;
 wavelet.waverec2d(my_wavelet::wdb1, decMats, decMatsWH,recMat);
 ```
 
-<div align=left><img src="./pictures/srcImg.png" width="20%" /></div>
+<div align=left><img src="pictures/srcImg.png" width="20%" /></div>
