@@ -15,5 +15,8 @@ wavelet.waveautoden(decMats);
 cv::Mat recMat;
 wavelet.waverec2d(my_wavelet::wdb1, decMats, decMatsWH,recMat);
 ```
-
+# 原图
 <div align=left><img src="pictures/srcImg.png" width="100%" /></div>
+
+# 降噪图
+<div align=left><img src="pictures/denoise.png" width="100%" /></div>
